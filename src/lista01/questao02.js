@@ -1,6 +1,3 @@
-// Descreva um algoritmo que receba dois números reais, calcule a média
-// aritmética entre os números e imprima o resultado.
-
 function imprimeInput(numero1, numero2) {
     console.log(`Número 1: ${numero1}`)
     console.log(`Número 2: ${numero2}`)

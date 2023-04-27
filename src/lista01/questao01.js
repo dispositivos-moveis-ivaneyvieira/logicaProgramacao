@@ -1,5 +1,6 @@
-// Descreva um algoritmo que receba um número inteiro como entrada 
-// e imprima o sucessor e antecessor desse número.
+function imprimeInput(numero) {
+    console.log(`Número: ${numero}`)
+}
 
 function sucessorAntecessor(numero) {
     var sucessor = numero + 1
@@ -17,5 +18,15 @@ function imprimeResultado(resultado) {
 
 
 var numero = 10
+
+imprimeInput(numero)
+
 var resultado = sucessorAntecessor(numero)
+
 imprimeResultado(resultado)
+
+/*
+Número: 10
+Sucessor: 11
+Antecessor: 9
+*/
