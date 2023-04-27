@@ -1,7 +1,7 @@
 // Descreva um algoritmo que receba um número inteiro como entrada 
 // e imprima o sucessor e antecessor desse número.
 
-function sucessorAntecessor(numero){
+function sucessorAntecessor(numero) {
     var sucessor = numero + 1
     var antecessor = numero - 1
     return [sucessor, antecessor]
