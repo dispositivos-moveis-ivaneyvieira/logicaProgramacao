@@ -4,9 +4,6 @@
 ```jsx
 // src/lista01/questao01.js
 
-// Descreva um algoritmo que receba um número inteiro como entrada 
-// e imprima o sucessor e antecessor desse número.
-
 function imprimeInput(numero) {
     console.log(`Número: ${numero}`)
 }
@@ -45,9 +42,6 @@ Antecessor: 9
 ```jsx
 // src/lista01/questao02.js
 
-// Descreva um algoritmo que receba dois números reais, calcule a média
-// aritmética entre os números e imprima o resultado.
-
 function imprimeInput(numero1, numero2) {
     console.log(`Número 1: ${numero1}`)
     console.log(`Número 2: ${numero2}`)
@@ -81,6 +75,35 @@ O valor da média é 11.07
 3. Descreva um algoritmo que calcule a área de um triângulo. $A=\frac{b \times h}{2}$
 ```jsx
 // src/lista01/questao03.js
+
+function imprimeInput(b, h) {
+    console.log(`Base: ${b}`)
+    console.log(`Alntura: ${h}`)
+}
+
+function calculaArea(b, h) {
+    return (b * h) / 2.0
+}
+
+function imprimeArea(area){
+    console.log(`Area: ${area}`)
+}
+
+
+b = 10
+h = 5
+
+imprimeInput(b, h)
+
+area = calculaArea(b, h)
+
+imprimeArea(area)
+
+/*
+Base: 10
+Alntura: 5
+Area: 25
+*/
 ```
    
 4. Descreva um algoritmo que calcule o salário líquido de um professor.  Os dados fornecidos são: valor da hora aula, número de aulas dadas no mês e percentual de desconto do INSS.
