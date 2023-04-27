@@ -19,3 +19,36 @@
 10. Escreva um algoritmo que calcule o desconto de um produto. O novo valor deve possui um desconto de 12%.
 
 11. Escreva um algoritmo que receba um número com quatro dígitos e imprima o primeiro e último digito.
+
+```stl
+solid cube_corner
+  facet normal 0.0 -1.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 1.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+  facet normal 0.0 0.0 -1.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 1.0 0.0 0.0
+    endloop
+  endfacet
+  facet normal -1.0 0.0 0.0
+    outer loop
+      vertex 0.0 0.0 0.0
+      vertex 0.0 0.0 1.0
+      vertex 0.0 1.0 0.0
+    endloop
+  endfacet
+  facet normal 0.577 0.577 0.577
+    outer loop
+      vertex 1.0 0.0 0.0
+      vertex 0.0 1.0 0.0
+      vertex 0.0 0.0 1.0
+    endloop
+  endfacet
+endsolid
+```
