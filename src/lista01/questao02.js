@@ -4,6 +4,7 @@ function imprimeInput(numero1, numero2) {
 }
 
 function calculaMedia(numero1, numero2) {
+    console.log(`Calculando ...`)
     var media = (numero1 + numero2) / 2
     return media
 }
@@ -24,5 +25,6 @@ imprimerMedia(media)
 /*
 Número 1: 12.08
 Número 2: 10.06
+Calculando ...
 O valor da média é 11.07
 */

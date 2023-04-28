@@ -4,6 +4,7 @@ function imprimeInput(b, h) {
 }
 
 function calculaArea(b, h) {
+    console.log(`Calculando ...`)
     return (b * h) / 2.0
 }
 
@@ -12,17 +13,18 @@ function imprimeArea(area){
 }
 
 
-b = 10
-h = 5
+var b = 10
+var h = 5
 
 imprimeInput(b, h)
 
-area = calculaArea(b, h)
+var area = calculaArea(b, h)
 
 imprimeArea(area)
 
 /*
 Base: 10
-Alntura: 5
+Altura: 5
+Calculando ...
 Area: 25
 */

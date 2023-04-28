@@ -3,6 +3,7 @@ function imprimeInput(numero) {
 }
 
 function sucessorAntecessor(numero) {
+    console.log(`Calculando ...`)
     var sucessor = numero + 1
     var antecessor = numero - 1
     return [sucessor, antecessor]
@@ -27,6 +28,7 @@ imprimeResultado(resultado)
 
 /*
 Número: 10
+Calculando ...
 Sucessor: 11
 Antecessor: 9
 */
