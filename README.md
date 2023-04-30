@@ -18,3 +18,5 @@
 ## Exercícios
 
 * [Lista 1](lista01.md)
+* [Lista 2](lista02.md)
+
