@@ -189,10 +189,10 @@ Programa primeiroUltimoDigito
         entao
           primeiro <- numero / 1000;          
           ultimo   <- numero % 10;
-          Escreva 'Primeiro dígito: ', primeiro
-          Escreva 'Ultimo dígito: ', ultimo
+          Escreva 'Primeiro dígito: ', primeiro;
+          Escreva 'Ultimo dígito: ', ultimo;
         senao
-          Escreva 'O número não possui quatro dígitos'
+          Escreva 'O número não possui quatro dígitos';
         fim;  
     fim.
 ```
