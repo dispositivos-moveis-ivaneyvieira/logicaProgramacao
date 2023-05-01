@@ -1,5 +1,7 @@
 # Lista 02
 
+## Info.: Os programas das questões abaixo devem ser codificados na linguagem Javascript
+
 ## 1. Descreva um algoritmo que receba um número inteiro como entrada e imprima o sucessor e antecessor desse número
 
 ```jsx
