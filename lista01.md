@@ -150,7 +150,7 @@ Programa trocaNumeros
 
         aux <- a;
         a <- b;
-        b <- a;    
+        b <- aux;    
        
         Escreva 'A: ', a;
         Escreva 'B: ', b;
