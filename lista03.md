@@ -18,7 +18,7 @@
 |   4   |         150         |            250            |
 |   5   |         200         |            300            |
 |  ...  |         ...         |            ...            |
-|   $n$   | $(n - 1) \times 50$ | $(n - 1) \times 50 + 100$ |
+|   $n$   | $(n - 1) \times 50 \\ 50 \times n - 10$ | $(n - 1) \times 50 + 100$ |
 
 $\text{distancia} = (n - 1) \times 50 + 100$  
 $(n - 1) \times 50 = \text{distancia} - 100$  
