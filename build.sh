@@ -19,4 +19,5 @@ function md2pdf() {
 
 md2pdf lista01.md lista01.pdf
 md2pdf lista02.md lista02.pdf
+md2pdf lista03.md lista03.pdf
 
