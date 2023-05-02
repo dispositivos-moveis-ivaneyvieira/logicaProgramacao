@@ -159,7 +159,7 @@ Programa trocaNumeros
 
 ## 8. Escreva um algoritmo que calcule o volume de uma lata de óleo, utilizando a seguinte fórmula:
 
-$$\text{volume} = 3.14 \times R^{2} \times \text{altura}$$
+$$\text{volume} = \Pi \times R^{2} \times \text{altura}$$
 
 ```java
 Programa calculaVolume
