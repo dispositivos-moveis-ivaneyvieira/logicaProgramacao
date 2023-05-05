@@ -3,9 +3,9 @@ function imprimeInput(b, h) {
     console.log(`Alntura: ${h}`)
 }
 
-function calculaArea(b, h) {
+function calculaArea(base, altura) {
     console.log(`Calculando ...`)
-    return (b * h) / 2.0
+    return (base * altura) / 2.0
 }
 
 function imprimeArea(area){
