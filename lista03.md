@@ -5,8 +5,10 @@
 ***1. Faça um programa que leia um número inteiro e informe se ele é perfeito ou não. Um número perfeito é aquele que é igual à soma de seus divisores. Ex.: 6 = 1 + 2 + 3 = número perfeito***
 
 > Imagine que temos o seguinte problema: Dado um número inteiro $N$, queremos encontrar todos os divisores positivos de $N$. Uma possível solução seria, novamente, iterar por todos os números de $1$ a $N$ e checar quais deles dividem N, salvando-os em um vetor de respostas. Dessa forma, obtemos uma complexidade de $O(N)$.
+>
 > Para otimizar este algoritmo, perceba que se $p$ é um divisor de $N$ maior que $\sqrt{N}$, então o número $q=\tfrac{N}{p}$ também é um divisor de $N$ e $q<\sqrt{N}$, Isso sugere que é suficiente iterarmos apenas pelos números de 1 a $\sqrt{N}$, e, assim que encontrarmos um divisor q tal que $q \leqslant \sqrt{N}$, inserimos tanto $q$ quanto $\tfrac{N}{q}$ em nosso vetor de respostas. Dessa forma, encontraremos tanto os divisores "pequenos" (menores ou iguais a $\sqrt{N}$) de $N$ quanto os divisores "grandes" (maiores que $\sqrt{N}$).
-
+>
+> Essa versão otimizada do algoritmo reduz a complexidade de $O(N)$ para $O(\sqrt{N})$, tornando-o muito mais eficiente para números grandes.
 
 ***2. Faça um programa que solicite um número inteiro de até 4 dígitos ao usuário e inverta a ordem de seus algarismos. Ex.: Entrada = 5382 - Saída = 2835***
 
