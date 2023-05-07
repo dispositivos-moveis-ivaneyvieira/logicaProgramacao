@@ -9,6 +9,6 @@ programa {
         antecessor = numero - 1
         
         escreva("Sucessor: ", sucessor)
-        escreva("Antecessor: ", sucessor)
+        escreva("Antecessor: ", antecessor)
     }
 }

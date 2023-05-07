@@ -1,6 +1,9 @@
 #!/bin/bash
 
+sed -i lista01.md -e 's/```portugol/```txt/g'
 npx embedme lista01.md
+sed -i lista01.md -e 's/```txt/```portugol/g'
+
 npx embedme lista02.md
 
 function md2pdf() {
