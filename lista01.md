@@ -2,23 +2,7 @@
 
 ## 1. Descreva um algoritmo que receba um número inteiro como entrada e imprima o sucessor e antecessor desse número
 
-```jsx
-// src/lista01/questao01.por
-
-programa {
-    inicio {
-        inteiro numero, sucessor, antecessor
-
-        escreva "Entre com um numero: "
-        leia(numero)
-
-        sucessor = numero + 1
-        antecessor = numero - 1
-        
-        escreva("Sucessor: ", sucessor)
-        escreva("Antecessor: ", sucessor)
-    }
-}
+```portugol:src/lista01/questao01.por
 ```
 
 ## 2. Descreva um algoritmo que receba dois números reais, calcule a média aritmética entre os números e imprima o resultado
