@@ -7,6 +7,7 @@ npx embedme lista01.md
 sed -i lista01.md -e 's/```txt/```portugol/g'
 
 npx embedme lista02.md
+npx embedme lista03.md
 
 function md2pdf() {
     local input=$1
