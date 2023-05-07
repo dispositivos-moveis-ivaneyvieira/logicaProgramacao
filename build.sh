@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sed -i '/\/\*/,/\*\//d' src/lista01/*.por
+
 sed -i lista01.md -e 's/```portugol/```txt/g'
 npx embedme lista01.md
 sed -i lista01.md -e 's/```txt/```portugol/g'

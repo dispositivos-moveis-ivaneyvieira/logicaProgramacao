@@ -1,15 +1,17 @@
-Programa calculaMedia
-    início
-        Declare numero1, numero2: real;
-        Declare media: real;
+programa {
+    
+    funcao inicio() {
+        real numero1, numero2
+        real media
 
-        Escreva 'Entre com um número: ';
-        Leia numero1;
+        escreva("Entre com um número: ")
+        leia(numero1)
 
-        Escreva 'Entre com outro número: ';
-        Leia numero2;
+        escreva("Entre com outro número: ")
+        leia(numero2)
 
-        media <- (numero1 + numero2) / 2;
+        media = (numero1 + numero2) / 2.0
         
-        Escreva 'Média: ', media;
-    fim.
+        escreva("Média: ", media)
+    }
+}
