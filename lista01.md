@@ -23,7 +23,9 @@ programa {
 
 ## 2. Descreva um algoritmo que receba dois números reais, calcule a média aritmética entre os números e imprima o resultado
 
-```java
+```portugol
+//src/lista01/questao02.por
+
 Programa calculaMedia
     início
         Declare numero1, numero2: real;
