@@ -17,33 +17,33 @@
 
 ### Básico
 
-1\. Pense em um exemplo para cada um dos itens abaixo, e aponte qual o tipo de cadaum dos valores:
+1\. Pense em um exemplo para cada um dos itens abaixo, e aponte qual o tipo de cada um dos valores:
 
-I. Nome de Rua  
-II. Número de Casa  
-III Resultado da afirmação: 8>2  
-IV. Idade de uma pessoa  
-V. Peso de uma pessoa  
-VII. Sexo de uma pessoa  
-VII. Valor do salário  
-VIII. Signo astrológico  
-IX. Nome de carro  
-X. Preço do combustível  
-XI. Número de pessoas em uma fila  
-XII. Resultado da afirmação O papai Noel existe  
+I. Nome de Rua:  ***cadeia***
+II. Número de Casa:  ***inteiro***  
+III Resultado da afirmação: 8>2:  ***lógico***  
+IV. Idade de uma pessoa:  ***inteiro***  
+V. Peso de uma pessoa:  ***real***  
+VII. Sexo de uma pessoa:  ***caracter***  
+VII. Valor do salário:  ***real***  
+VIII. Signo astrológico:  ***cadeia***  
+IX. Nome de carro:  ***cadeia***  
+X. Preço do combustível:  ***real***  
+XI. Número de pessoas em uma fila:  ***inteiro***  
+XII. Resultado da afirmação O papai Noel existe:  ***logico***  
 
 2\. Quais os tipos dos seguintes valores:
 
-I. 'F'  
-II. Falso  
-III. “Falso'  
-IV. 5.84  
-V. 'A*B!?'  
-VI. 'Amarelo'  
-VII. '03 de agosto de 2004'  
-VIII. 2004  
-IX. 03  
-X. 'agosto'  
+I. 'F':  ***caracter***  
+II. Falso:  ***lófigo***  
+III. 'Falso':  ***cadeia***  
+IV. 5.84:  ***real***  
+V. 'A*B!?':  ***cadeia***  
+VI. 'Amarelo':  ***cadeia***  
+VII. '03 de agosto de 2004':  ***cadeia***  
+VIII. 2004:  ***inteiro***  
+IX. 03:  ***inteiro***  
+X. 'agosto':  ***cadeia***  
 
 3\. Faça um programa que leia um número inteiro e o imprima
 

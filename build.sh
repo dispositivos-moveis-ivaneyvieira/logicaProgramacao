@@ -12,8 +12,9 @@ npx embedme lista03.md
 function md2pdf() {
     local input=$1
     local output=$2
-        ##--highlight-style tango \
+
     pandoc --from markdown -f gfm \
+        --highlight-style tango \
         -V lang=pt-BR \
         -V geometry:a4paper \
         -V geometry:margin=2cm \
