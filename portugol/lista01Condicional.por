@@ -2,6 +2,7 @@ programa
  { 
  	inclua biblioteca Texto --> tx
  	inclua biblioteca Tipos --> tp
+ 	inclua biblioteca Matematica --> mt
  	
  	funcao inteiro leiaInteiro(cadeia prompt){ 
         inteiro numero 
@@ -49,7 +50,7 @@ programa
 	funcao item02() {
 		real numero = leiaReal("Digite um número: ")
 		se (numero > 0)
-		   escreva("A raiz quandrada de ", numero, " é: ", raiz_quadrada(numero))
+		   escreva("A raiz quandrada de ", numero, " é: ", mt.raiz(numero, 2.00))
 		senao
 			escreva("O número ", numero, " é invalido")
 	}
@@ -248,7 +249,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 401; 
+ * @POSICAO-CURSOR = 484; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

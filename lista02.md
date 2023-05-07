@@ -13,25 +13,28 @@ function imprimeInput(numero) {
 
 function sucessorAntecessor(numero) {
     console.log(`Calculando ...`)
-    var sucessor = numero + 1
-    var antecessor = numero - 1
+    if (typeof numero !== 'number') {
+        throw new Error('Only numbers are accepted')
+    }
+    let sucessor = numero + 1
+    let antecessor = numero - 1
     return [sucessor, antecessor]
 }
 
 function imprimeResultado(resultado) {
-    var sucessor = resultado[0]
-    var antecessor = resultado[1]
+    let sucessor = resultado[0]
+    let antecessor = resultado[1]
 
     console.log(`Sucessor: ${sucessor}`)
     console.log(`Antecessor: ${antecessor}`)
 }
 
 
-var numero = 10
+let numero = 10
 
 imprimeInput(numero)
 
-var resultado = sucessorAntecessor(numero)
+let resultado = sucessorAntecessor(numero)
 
 imprimeResultado(resultado)
 
@@ -41,6 +44,8 @@ Calculando ...
 Sucessor: 11
 Antecessor: 9
 */
+
+
 ```
 
 ## 2. Descreva um algoritmo que receba dois números reais, calcule a média aritmética entre os números e imprima o resultado
@@ -92,9 +97,9 @@ function imprimeInput(b, h) {
     console.log(`Alntura: ${h}`)
 }
 
-function calculaArea(b, h) {
+function calculaArea(base, altura) {
     console.log(`Calculando ...`)
-    return (b * h) / 2.0
+    return (base * altura) / 2.0
 }
 
 function imprimeArea(area){
