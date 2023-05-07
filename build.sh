@@ -1,5 +1,6 @@
 #!/bin/bash
 
+npx embedme lista01.md
 npx embedme lista02.md
 
 function md2pdf() {

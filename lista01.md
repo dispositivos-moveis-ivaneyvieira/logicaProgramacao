@@ -2,21 +2,21 @@
 
 ## 1. Descreva um algoritmo que receba um número inteiro como entrada e imprima o sucessor e antecessor desse número
 
-```portugol
-// src/lista02/questao01.js
+```jsx
+// src/lista01/questao01.por
 
 programa {
-    funcao inicio() {
+    inicio {
         inteiro numero, sucessor, antecessor
 
-        escreva("Entre com um numero: ")
+        escreva "Entre com um numero: "
         leia(numero)
 
         sucessor = numero + 1
         antecessor = numero - 1
         
-        escreva("\nSucessor: ", sucessor)
-        escreva("\nAntecessor: ", antecessor)
+        escreva("Sucessor: ", sucessor)
+        escreva("Antecessor: ", sucessor)
     }
 }
 ```
