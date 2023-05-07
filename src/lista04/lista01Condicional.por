@@ -100,19 +100,25 @@ programa
     real percurso = leiaReal("Digite o percurso em km: ")
     cadeia tipo = leiaCadeia("Digite o tipo de carro (A/B/C): ")
 
-    real consumo
+    real consumo = 0.00
 
-    se (tipo == "A") {
-      consumo = 8.00
-    } senao {
-      se (tipo == "B") {
-        consumo = 9.00
-      } senao {
-        consumo = 12.00
-      }
-    }
+	opcao (tipo) {
+		caso "A": 
+		  consumo = 8.00
+		  pare
+		caso "B": 
+		  consumo = 9.00
+		  pare
+		caso "C": 
+		  consumo = 12.00
+		  pare
+		caso contrario:
+		  escreva("Tipo de carro inválido")
+		  pare
+	}
 
-    escreva("O consumo é: ", percurso / consumo)
+	se (consumo != 0.00)
+      escreva("O consumo é: ", percurso / consumo)
   }
 
   funcao item08() {
