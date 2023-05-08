@@ -1,13 +1,15 @@
 #!/bin/bash
 
-sed -i '/\/\*/,/\*\//d' src/lista01/*.por
+DIR_UNIDADE='docs/unidade_I'
 
-sed -i lista01.md -e 's/```portugol/```txt/g'
-npx embedme lista01.md
-sed -i lista01.md -e 's/```txt/```portugol/g'
+sed -i '/\/\*/,/\*\//d' src/unidade_I/lista01/*.por
 
-npx embedme lista02.md
-npx embedme lista03.md
+sed -i $DIR_UNIDADE/lista01.md -e 's/```portugol/```txt/g'
+npx embedme $DIR_UNIDADE/lista01.md
+sed -i $DIR_UNIDADE/lista01.md -e 's/```txt/```portugol/g'
+
+npx embedme $DIR_UNIDADE/lista02.md
+npx embedme $DIR_UNIDADE/lista03.md
 
 function md2pdf() {
     local input=$1
@@ -38,15 +40,9 @@ function md2docx() {
         -o ./$output ./$input
 }
 
-md2pdf lista01.md lista01.pdf
-md2pdf lista02.md lista02.pdf
-md2pdf lista03.md lista03.pdf
-md2pdf lista04.md lista04.pdf
-
-# md2docx lista01.md lista01.docx
-# md2docx lista02.md lista02.docx
-# md2docx lista03.md lista03.docx
-# md2docx lista04.md lista04.docx
+md2pdf $DIR_UNIDADE/lista01.md $DIR_UNIDADE/lista01.pdf
+md2pdf $DIR_UNIDADE/lista02.md $DIR_UNIDADE/lista02.pdf
+md2pdf $DIR_UNIDADE/lista03.md $DIR_UNIDADE/lista03.pdf
+md2pdf $DIR_UNIDADE/lista04.md $DIR_UNIDADE/lista04.pdf
 
 
-mv -v ./*.pdf pdfs/

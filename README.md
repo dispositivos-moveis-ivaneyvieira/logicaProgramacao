@@ -2,7 +2,7 @@
 
 ## Exercícios
 
-### unidade I
+### Unidade I
 
 #### [Lista 1](docs/unidade_I/lista01.md)
 
