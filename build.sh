@@ -5,11 +5,11 @@ DIR_UNIDADE='docs/unidade_I'
 sed -i '/\/\*/,/\*\//d' src/unidade_I/lista01/*.por
 
 sed -i $DIR_UNIDADE/lista01.md -e 's/```portugol/```txt/g'
-npx embedme $DIR_UNIDADE/lista01.md
+npx embedme --source-root . $DIR_UNIDADE/lista01.md
 sed -i $DIR_UNIDADE/lista01.md -e 's/```txt/```portugol/g'
 
-npx embedme $DIR_UNIDADE/lista02.md
-npx embedme $DIR_UNIDADE/lista03.md
+npx embedme --source-root . $DIR_UNIDADE/lista02.md
+npx embedme --source-root . $DIR_UNIDADE/lista03.md
 
 function md2pdf() {
     local input=$1

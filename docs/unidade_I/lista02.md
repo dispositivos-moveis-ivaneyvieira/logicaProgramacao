@@ -5,7 +5,7 @@
 1\. Descreva um algoritmo que receba um número inteiro como entrada e imprima o sucessor e antecessor desse número
 
 ```jsx
-//src/unidade I/lista02/questao01.js
+//src/unidade_I/lista02/questao01.js
 
 function imprimeInput(numero) {
     console.log(`Número: ${numero}`)
@@ -51,7 +51,7 @@ Antecessor: 9
 2\. Descreva um algoritmo que receba dois números reais, calcule a média aritmética entre os números e imprima o resultado
 
 ```jsx
-//src/unidade I/lista02/questao02.js
+//src/unidade_I/lista02/questao02.js
 
 function imprimeInput(numero1, numero2) {
     console.log(`Número 1: ${numero1}`)
@@ -88,7 +88,7 @@ O valor da média é 11.07
 3\. Descreva um algoritmo que calcule a área de um triângulo $A=\dfrac{b \times h}{2}$
 
 ```jsx
-//src/unidade I/lista02/questao03.js
+//src/unidade_I/lista02/questao03.js
 
 function imprimeInput(b, h) {
     console.log(`Base: ${b}`)
@@ -125,7 +125,7 @@ Area: 25
 4\. Descreva um algoritmo que calcule o salário líquido de um professor.  Os dados fornecidos são: valor da hora aula, número de aulas dadas no mês e percentual de desconto do INSS
 
 ```jsx
-//src/unidade I/lista02/questao04.js
+//src/unidade_I/lista02/questao04.js
 
 function imprimeInput(horaAula, numeroAulas, percentualINSS) {
     console.log(`Hora Aula: ${horaAula}`)
@@ -165,7 +165,7 @@ Salário: 1210.4
 5\. Descreva um algoritmo que calcule o IMC de uma pessoa $\text{IMC} = \dfrac{\text{peso}}{\text{altura}^{2}}$
 
 ```jsx
-//src/unidade I/lista02/questao05.js
+//src/unidade_I/lista02/questao05.js
 
 function imprimeInput(peso, altura) {
     console.log(`Peso: ${peso}`)
@@ -203,7 +203,7 @@ IMC: 42.44897959183673
 6\. Escreva um algoritmo em pseudocódigo que calcule o valor de uma prestação em atraso, utilizando a seguinte fórmula: $\text{prestação} = \text{valor} + (\text{valor} \times \left(\dfrac{\text{taxa}}{100}\right) \times \text{tempo})$
 
 ```jsx
-//src/unidade I/lista02/questao06.js
+//src/unidade_I/lista02/questao06.js
 
 function imprimeInput(valor, taxa, tempo) {
     console.log(`Valor: ${valor}`)
@@ -245,7 +245,7 @@ Prestação: 1200
 7\. Escreva um algoritmo que receba como entrada dois números inteiros. Os números devem ser armazenados nas variáveis A e B. O algoritmo deve efetuar a troca dos valores de forma que a variável A passe a ter o valor da variável B e que a variável B passe a ter o valor da variável A. Ao final, o algoritmo deve imprimir os valores trocados
 
 ```jsx
-//src/unidade I/lista02/questao07.js
+//src/unidade_I/lista02/questao07.js
 
 var a
 var b
@@ -285,7 +285,7 @@ B: 10
 8\. Escreva um algoritmo que calcule o volume de uma lata de óleo, utilizando a seguinte fórmula: $\text{volume} = \Pi \times R^{2} \times \text{altura}$
 
 ```jsx
-//src/unidade I/lista02/questao08.js
+//src/unidade_I/lista02/questao08.js
 
 function imprimeInput(raio, altura) {
     console.log(`Raio: ${raio}`)
@@ -323,7 +323,7 @@ Volume: 1570.7963267948967
 9\. Escreva um algoritmo que calcule o desconto de um produto. O novo valor deve possui um desconto de 12%
 
 ```jsx
-//src/unidade I/lista02/questao09.js
+//src/unidade_I/lista02/questao09.js
 
 var desconto = 12;
 
@@ -360,7 +360,7 @@ Desconto: 880
 10\. Escreva um algoritmo que receba um número com quatro dígitos e imprima o primeiro e último digito
 
 ```jsx
-//src/unidade I/lista02/questao10.js
+//src/unidade_I/lista02/questao10.js
 
 // Escreva um algoritmo que receba um número com quatro dígitos e imprima o
 // primeiro e último digito.

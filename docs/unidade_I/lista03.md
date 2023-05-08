@@ -11,7 +11,7 @@ Info.: Os programas das questões abaixo devem ser codificados na linguagem Java
 > Essa versão otimizada do algoritmo reduz a complexidade de $O(N)$ para $O(\sqrt{N})$, tornando-o muito mais eficiente para números grandes.
 
 ```jsx
-//src/unidade I/lista03/questao01.js
+//src/unidade_I/lista03/questao01.js
 
 function listaDivisores(numero) {
     let divisores = []
@@ -54,7 +54,7 @@ for (let i = 1; i <= 1000000; i++) {
 2\. Faça um programa que solicite um número inteiro de até 4 dígitos ao usuário e inverta a ordem de seus algarismos. Ex.: Entrada = 5382 - Saída = 2835
 
 ```jsx
-//src/unidade I/lista03/questao02.js
+//src/unidade_I/lista03/questao02.js
 
 
 function invert4(num) {
@@ -84,7 +84,7 @@ for (let i = 1; i <= 10000; i = i + 235) {
 3\. Escreva um programa para verificar se um número é palíndromo (Número que é igual ao seu reverso Ex.: 14541)
 
 ```jsx
-//src/unidade I/lista03/questao03.js
+//src/unidade_I/lista03/questao03.js
 
 
 function invert4(num) {
@@ -132,7 +132,7 @@ for (let i = 1; i <= 10000; i = i + 41) {
 > $n = \dfrac{\text{distancia} - \text{subida}}{\text{subida} - \text{descida}} + 1$
 
 ```jsx
-//src/unidade I/lista03/questao04.js
+//src/unidade_I/lista03/questao04.js
 
 function quantidadesDias(distancia, subida, descida) {
     dias = ((distancia - subida) / (subida - descida)) + 1
@@ -151,7 +151,7 @@ console.log(`A quantidade de dias necessários para a dona lesma subir ${distanc
 5\. Pedrinho está implementando o sistema de controle de pagamentos parcelados de uma grande empresa de cartão de crédito digital. Os clientes podem parcelar as compras sem juros no cartão, em até 18 vezes. Quando o valor V da compra é divisível pelo número P de parcelas que o cliente escolhe, todas as parcelas terão o mesmo valor. Por exemplo, se o cliente comprar um livro de V=30 reais em P=6 vezes, então as parcelas terão valores: 5, 5, 5, 5, 5 e 5. Mas se o valor da compra não for divisível pelo número de parcelas será preciso fazer um ajuste, pois a empresa quer que todas as parcelas tenham sempre um valor inteiro e somem no total, claro, o valor exato da compra. O que Pedrinho decidiu foi distribuir o resto da divisão de V por P igualmente entre as parcelas iniciais. Por exemplo, se a compra for de V=45 e o número de parcelas for P=7, então as parcelas terão valores: 7, 7, 7, 6, 6, 6 e 6. Quer dizer, como o resto da divisão de 45 por 7 é 3, então as 3 parcelas iniciais devem ter valor um real maior do que as 4 parcelas finais. Você precisa ajudar Pedrinho e escrever um programa que, dado o valor da compra e o número de parcelas, imprima os valores de cada parcela. O programa deve receber como entrada o valor de V, representando o valor da compra e o valor de P, indicando o número de parcelas. A saída deve ser as parcelas
 
 ```jsx
-//src/unidade I/lista03/questao05.js
+//src/unidade_I/lista03/questao05.js
 
 function divideParcelas(valor, numeroParcela) {
     if (valor < 0 || numeroParcela < 0)
