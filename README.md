@@ -1,5 +1,14 @@
 # Logica de programação
 
+## Aula
+
+### Mapas mentais
+
+* [Aula 1](aulas/aula01.png)
+* [Aula 2](aulas/aula02.png)
+* [Aula 3](aulas/aula03.png)
+* [Aula 4](aulas/aula04.png)
+
 ## Exercícios
 
 ### Unidade I
@@ -41,7 +50,7 @@ Exercícios práticos sobre conceitos básicos de Javascript
 * [PDF](docs/unidade_II/lista01.pdf)
 * [Código fonte](src/unidade_II/lista01/)
 
-#### [Lista 2](docs/unidade_I/lista02.md)
+#### [Lista 2](docs/unidade_II/lista02.md)
 
 Exercícios práticos sobre Condicionais e Repetição em Javascript
 

@@ -1,0 +1,72 @@
+@startuml
+@startmindmap
+
+caption Aula 2
+
+<style>
+node {
+    Padding 5
+    Margin 5
+    HorizontalAlignment left
+    LineThickness 1.0
+    BackgroundColor LightBlue
+    RoundCorner 10
+    MaximumWidth 300
+}
+
+</style>
+*:Logica de programação 
+Aula 2;
+** Variáveis
+*** Definição
+**** Uma variável é uma representação simbólica dos elementos de um certo conjunto.
+**** Variáveis são locais onde armazenamos valores na memória. Toda variável é caracterizada por um nome, que a identifica em um programa, e por um tipo, que determina o que pode ser armazenado naquela variável.
+****:**Constante x Variável**
+Constante: O valor não se altera após a sua definição;
+*** Analogia
+****:* Uma boa forma de entendermos o conceito de variável é pensarmos em um armário com várias gavetas com etiquetas.
+* Cada gaveta pode armazenar um único valor corresponde a um espaço na memória do computador (uma variável).
+* O que é guardado na gaveta corresponde ao conteúdo da variável.
+* A etiqueta é utilizada para localizar um conteúdo específico.;
+*** Regras Básicas
+****:* Os nomes de variáveis (as palavras colocadas nas etiquetas) podem ter letras e dígitos, porém devem iniciar sempre com uma letra
+* O nome de uma variável não pode ter espaço em branco
+* O nome de uma variável não pode ter caracteres especiais
+* O único caractere especial aceito é o _ (conhecido com underline)
+* Não é permitido usar palavras reservadas como nomes de variáveis.;
+*** Atribuição de Valores
+****:* Como visto anteriormente, uma variável é uma posição de memória no computador, que contém um determinado valor.
+* Para que uma variável armazene esse valor, utilizamos o comando de atribuição, representado pelo símbolo <-.
+* Dessa forma, o valor que está à direita do comando <- será atribuído para a variável que está à esquerda.
+* A atribuição de um valor à uma variável deve sempre obedecer ao tipo daquela variável.;
+****:* É importante lembrar que cada linguagem de programação possui sua própria sintaxe
+* Ou seja, os símbolos e comandos utilizados alteram de uma linguagem para outra
+* Sempre que um determinado valor é atribuído para uma variável, esse valor será guardado em um espaço na memória do computador;
+****:**IMPORTANTE**
+* Como cada variável poderá guardar somente um único valor, sempre que um novo valor for atribuído para uma variável, o valor antigo será descartado;
+** Tipos de dados
+***:**Definem:**
+* A natureza do dado
+* As operações que podem ser realizadas com o dado
+* O espaço a ser ocupado na memória;
+*** Classificação
+****:**Inteiro**
+Representa valores inteiros.
+Exemplos: 10, 5, -5, -10;
+****:**Real ou numérico**
+Representa valores reais (com ponto separador da parte decimal).
+Exemplos: 10, 15.5, -14.67;
+****:**texto ou caractere**
+Representa texto (sequencia ou cadeia de caracteres) entre aspas duplas.
+Exemplo "Esta é uma cadeia de caracteres", “B”, “1234”;
+****:**logico**
+Representa valores lógicos (VERDADEIRO ou FALSO);
+** Entrada e Saída
+***:Algoritmos objetivam transformar informações
+Algoritmo = Entrada + Processamento + Saída;
+****:* **Entrada**: obtenção de dados provenientes do meio externo
+* **Comando**: leia;
+****:* **Saída**: entrega dos resultados ao meio externo
+* **Comando**: escreva;
+@endmindmap
+@enduml

@@ -1,0 +1,77 @@
+@startuml
+@startmindmap
+
+caption Aula 1
+
+<style>
+node {
+    Padding 5
+    Margin 5
+    HorizontalAlignment left
+    LineThickness 1.0
+    BackgroundColor LightBlue
+    RoundCorner 10
+    MaximumWidth 300
+}
+
+</style>
+*:Logica de programação 
+Aula 1;
+** Conceiros básicos
+***:Abstração
+Da filosofia Ato de separar mentalmente um ou mais elementos de
+uma totalidade complexa (coisa, representação, fato);
+**** A realidade é a mesma!
+****:Dependendo a observação da realidade, você pode 
+ter abstrações diferentes;
+****:A abstração depende mais do observador do que 
+da realidade observada;
+****:A tarefa de programar sistemas computacionais
+envolve o exercício constante da abstração da realidade;
+***:Lógica é a técnica de encadear pensamentos para atingir
+determinado objetivo;
+*** Sequência lógica: são passos executados até atingir um objetivo ou solução de um problema
+*** Instruções: um conjunto de regras ou normas definidas para a realização ou emprego de algo. É o que indica a um computador uma ação elementar a executar
+
+** Algoritmos
+*** Sequência finita de passos, precisos e bem definidos, para a realização de uma tarefa
+*** Não podem ser redundantes, nem subjetivos e não ambíguos
+*** Que exista uma condição de fim sempre atingida para quaisquer entradas e em um tempo finito
+
+** Representação de Algoritmos
+*** Descrição Narrativa
+**** VANTAGENS
+***** O português é bastante conhecido por nós;
+**** DESVANTAGENS:
+***** Imprecisão;
+***** Pouca confiabilidade (a imprecisão acarreta a desconfiança);
+***** Extensão (normalmente, escreve-se muito para dizer pouca coisa). 
+*** Fluxograma
+**** VANTAGENS:
+***** Uma das ferramentas mais conhecidas;
+***** Figuras dizem muito mais que palavras;
+***** Padrão mundial
+**** DESVANTAGENS:
+***** Pouca atenção aos dados, não oferecendo recursos para descrevê-los ou representa-los;
+***** Complica-se à medida que o algoritmo cresce
+*** Pseudocódigo
+**** Consiste na definição de uma pseudo-linguagem de programação, cujos comandos podem ser em português, para representar algoritmos.
+***** São independentes das linguagens de programação;
+***** Devem ser fáceis de se interpretar e fácil de codificar;
+***** Devem ser o intermediário entre a linguagem falada e a linguagem de programação (e.g., C, Java e Python).
+**** Regras de construção de um dos tipos de pseudocódigos:
+***** Usar somente um verbo por frase;
+***** Imaginar que você está desenvolvendo um algoritmo para pessoas que não trabalham com informática;
+***** Usar frases curtas e simples;
+***** Ser objetivo;
+***** Procurar usar palavras que não tenham sentido dúbio.
+**** VANTAGENS:
+***** Pode se usar o português como base;
+***** São independentes das linguagens de programação;
+***** Pode-se definir quais e como os dados vão estar estruturados;
+***** Passagem quase imediata do algoritmo para uma linguagem de programação qualquer.
+**** DESVANTAGENS:
+***** Exige a definição de uma linguagem não real para trabalho;
+***** Não padronizado.
+@endmindmap
+@enduml

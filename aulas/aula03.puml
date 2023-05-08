@@ -1,0 +1,65 @@
+@startuml
+@startmindmap
+
+caption Aula 3
+
+<style>
+node {
+    Padding 5
+    Margin 5
+    HorizontalAlignment left
+    LineThickness 1.0
+    BackgroundColor LightBlue
+    RoundCorner 10
+    MaximumWidth 300
+}
+
+</style>
+*:Logica de programação 
+Aula 3;
+** Operadores Aritméticos
+***:Os operadores aritméticos expressam operações aritméticas (matemáticas)
+* Como normalmente acontece com as expressões matemáticas, os seus operadores obedecem a uma hierarquia na hora de serem executados.
+* Dados de entrada: tipo numérico (inteiro ou real)
+* Resultado: tipo numérico (inteiro ou real);
+
+*** Hierarquia dos operadores aritméticos
+**** 1º - Parênteses
+**** 2º - Potenciação
+**** 3º - Multiplicação, Divisão e Resto da Divisão
+**** 4º - Adição e Subtração
+
+*** Tipos
+****:|=Operador|=Significado|=JavaScript|
+| + |Soma |+|
+| - |Subtração| -|
+| * |Multiplicação| *|
+| / | Divisão | / |
+| div |Divisão inteira| / com funções adicionais|
+| mod |Resto da divisão | %|
+| ** ou ^ |Potenciação | **, Math.pow|
+| raiz |Raiz quadrada | Math.sqrt|;
+** Operadores Relacionais
+***:* Os operadores relacionais são utilizados em expressões que examinam a relação entre dois valores do mesmo tipo.
+* Os operadores relacionais são apresentados na tabela a seguir.
+* Dados de entrada: tipo numérico (int ou float) ou caracteres
+* Resultado: tipo lógico;
+*** Tipos
+****:|= Operador|= Significado|=JavaScript|
+| = |Igual (a = b) | ==|
+| <>| Diferente (a <> b) | !=|
+| > |Maior que (a > b)| >|
+| < |Menor que (a < b) | <|
+| >= |Maior ou igual (a >= b) | >=|
+| <= |Menor ou igual (a <= b) | <=|;
+** Operadores Lógicos
+***:* Expressam relações lógicas entre variáveis.
+* Dados de entrada: tipo lógico
+* Resultado: tipo lógico;
+*** Tipos
+****:|= Operador|= Resultado|=JavaScript|
+| a E b |VERDADEIRO se ambas as partes (a e b) forem verdadeiras | &&|
+| a OU b |VERDADEIRO se apenas uma das partes (a ou b) for verdadeira | \|\| |
+| NAO a |Nega uma afirmação, invertendo o seu valor lógico: se a for\nVERDADEIRO retorna FALSO, se a for FALSO retorna VERDADEIRO. | !|;
+@endmindmap
+@enduml

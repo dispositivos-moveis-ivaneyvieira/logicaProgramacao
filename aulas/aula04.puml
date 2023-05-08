@@ -1,0 +1,47 @@
+@startuml
+@startmindmap
+
+caption Aula 4
+
+<style>
+node {
+    Padding 5
+    Margin 5
+    HorizontalAlignment left
+    LineThickness 1.0
+    BackgroundColor LightBlue
+    RoundCorner 10
+    MaximumWidth 300
+}
+
+</style>
+*:Logica de programação 
+Aula 4;
+** Relembrando
+*** De forma genérica, a construção de um algoritmo se resume às seguintes etapas
+**** 1. entendimento do problema
+**** 2. elaboração da solução algorítmica
+**** 3. codificação da solução em pseudo-código ou linguagem de programação
+*** O fluxo de controle segue a mesma sequencia linear da nossa escrita
+**** * De cima para baixo
+**** * Da esquerda para a direita 
+** Estrutura Condicional
+*** SE ENTAO
+****:SE <Expressão Logica> ENTAO
+    <Comandos>
+FIMSE;
+***** A EXPRESSÃO LÓGICA é uma expressão que deverá retornar um valor VERDADEIRO ou FALSO, e caso o resultado dessa EXPRESSÃO seja VERDADEIRO, será executado o COMANDO que está dentro da ESTRUTURA.
+***** O COMANDO é uma linha (ou sequência) de código que será executado somente quando o resultado da EXPRESSÃO LÓGICA for VERDADEIRO
+***** FIMSE indica que a ESTRUTRA SE ENTAO chegou ao final
+*** SE ENTAO SENAO
+****:SE <Expressão Logica> ENTAO
+    <ComandosSe>
+SENÃO
+    <ComandosSenao>
+FIMSE;
+***** A EXPRESSÃO LÓGICA é uma expressão que deverá retornar um valor VERDADEIRO ou FALSO, e caso o resultado dessa EXPRESSÃO seja VERDADEIRO, será executado o COMANDO que está dentro da ESTRUTURA.
+***** O COMANDOSe é uma linha (ou sequência) de código que será executado somente quando o resultado da EXPRESSÃO LÓGICA for VERDADEIRO
+***** O ComandosSenao é uma linha (ou sequência) de código que será executado somente quando o resultado da EXPRESSÃO LÓGICA for FALSO
+***** FIMSE indica que a ESTRUTRA SE ENTAO chegou ao final
+@endmindmap
+@enduml
