@@ -31,3 +31,26 @@ Lista de exercícos apresentados na aula presencial do dia 06/05/2023
 
 * [PDF](docs/unidade_I/lista04.pdf)
 * [Código fonte](src/unidade_I/lista04/)
+
+### Unidade II
+
+#### [Lista 1](docs/unidade_II/lista01.md)
+
+Exercícios práticos sobre conceitos básicos de Javascript
+
+* [PDF](docs/unidade_II/lista01.pdf)
+* [Código fonte](src/unidade_II/lista01/)
+
+#### [Lista 2](docs/unidade_I/lista02.md)
+
+Exercícios práticos sobre Condicionais e Repetição em Javascript
+
+* [PDF](docs/unidade_II/lista02.pdf)
+* [Código fonte](src/unidade_II/lista02/)
+
+#### [Lista 3](docs/unidade_II/lista03.md)
+
+Exercícios práticos sobre Strings em Javascript
+
+* [PDF](docs/unidade_II/lista03.pdf)
+* [Código fonte](src/unidade_II/lista03/)
