@@ -3,7 +3,7 @@
 1\. Descreva um algoritmo que receba um número inteiro como entrada e imprima o sucessor e antecessor desse número
 
 ```portugol
-//src/lista01/questao01.por
+//src/unidade I/lista01/questao01.por
 
 programa {
     funcao inicio() {
@@ -25,7 +25,7 @@ programa {
 2\. Descreva um algoritmo que receba dois números reais, calcule a média aritmética entre os números e imprima o resultado
 
 ```portugol
-//src/lista01/questao02.por
+//src/unidade I/lista01/questao02.por
 
 programa {
     
@@ -50,7 +50,7 @@ programa {
 3\. Descreva um algoritmo que calcule a área de um triângulo $A=\dfrac{b \times h}{2}$
 
 ```portugol
-//src/lista01/questao03.por
+//src/unidade I/lista01/questao03.por
 
 programa {
     funcao inicio() {
@@ -74,7 +74,7 @@ programa {
 4\. Descreva um algoritmo que calcule o salário líquido de um professor.  Os dados fornecidos são: valor da hora aula, número de aulas dadas no mês e percentual de desconto do INSS
 
 ```portugol
-//src/lista01/questao04.por
+//src/unidade I/lista01/questao04.por
 
 programa {
     funcao inicio() {
@@ -101,7 +101,7 @@ programa {
 5\. Descreva um algoritmo que calcule o IMC de uma pessoa: $\text{IMC} = \dfrac{\text{peso}}{\text{altura}^{2}}$
 
 ```portugol
-//src/lista01/questao05.por
+//src/unidade I/lista01/questao05.por
 
 programa {
     funcao inicio() {
@@ -125,7 +125,7 @@ programa {
 6\. Escreva um algoritmo em pseudocódigo que calcule o valor de uma prestação em atraso, utilizando a seguinte fórmula: $\text{prestação} = \text{valor} + (\text{valor} \times \left(\dfrac{\text{taxa}}{100}\right) \times \text{tempo})$
 
 ```portugol
-//src/lista01/questao06.por
+//src/unidade I/lista01/questao06.por
 
 programa {
     funcao inicio() {
@@ -153,7 +153,7 @@ programa {
 7\. Escreva um algoritmo que receba como entrada dois números inteiros. Os números devem ser armazenados nas variáveis A e B. O algoritmo deve efetuar a troca dos valores de forma que a variável A passe a ter o valor da variável B e que a variável B passe a ter o valor da variável A. Ao final, o algoritmo deve imprimir os valores trocados
 
 ```portugol
-//src/lista01/questao07.por
+//src/unidade I/lista01/questao07.por
 
 programa {
     funcao inicio() {
@@ -180,7 +180,7 @@ programa {
 8\. Escreva um algoritmo que calcule o volume de uma lata de óleo, utilizando a seguinte fórmula: $\text{volume} = \Pi \times R^{2} \times \text{altura}$
 
 ```portugol
-//src/lista01/questao08.por
+//src/unidade I/lista01/questao08.por
 
 programa {
     funcao inicio() {
@@ -205,7 +205,7 @@ programa {
 9\. Escreva um algoritmo que calcule o desconto de um produto. O novo valor deve possui um desconto de 12%
 
 ```portugol
-//src/lista01/questao09.por
+//src/unidade I/lista01/questao09.por
 
 programa {
     funcao inicio() {
@@ -227,7 +227,7 @@ programa {
 10\. Escreva um algoritmo que receba um número com quatro dígitos e imprima o primeiro e último digito
 
 ```portugol
-//src/lista01/questao10.por
+//src/unidade I/lista01/questao10.por
 
 programa {
     funcao inicio() {
