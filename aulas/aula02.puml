@@ -1,5 +1,6 @@
 @startuml
 @startmindmap
+skinparam defaultFontName MV BOli
 
 caption Aula 2
 
@@ -13,8 +14,8 @@ node {
     RoundCorner 10
     MaximumWidth 300
 }
-
 </style>
+
 *:Logica de programação 
 Aula 2;
 ** Variáveis
