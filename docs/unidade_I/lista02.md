@@ -44,8 +44,6 @@ Calculando ...
 Sucessor: 11
 Antecessor: 9
 */
-
-
 ```
 
 2\. Descreva um algoritmo que receba dois números reais, calcule a média aritmética entre os números e imprima o resultado

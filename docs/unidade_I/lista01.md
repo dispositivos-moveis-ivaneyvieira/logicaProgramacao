@@ -3,7 +3,7 @@
 1\. Descreva um algoritmo que receba um número inteiro como entrada e imprima o sucessor e antecessor desse número
 
 ```portugol
-// src/unidade_I/lista01/questao01.por
+//src/unidade_I/lista01/questao01.por
 
 programa {
     funcao inicio() {

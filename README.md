@@ -9,6 +9,17 @@
 * [:notebook: Aula 3](aulas/aula03.png)
 * [:notebook: Aula 4](aulas/aula04.png)
 
+### Resumos
+
+* [:page_with_curl: Aula 1 a](aulas/aula01a.md)
+* [:page_with_curl: Aula 1 b](aulas/aula01b.md)
+* [:page_with_curl: Aula 2](aulas/aula02.md)
+* [:page_with_curl: Aula 3](aulas/aula03.md)
+* [:page_with_curl: Aula 4](aulas/aula04.md)
+* [:page_with_curl: Aula 5](aulas/aula05.md)
+* [:page_with_curl: Aula 6](aulas/aula06.md)
+* [:page_with_curl: Aula 7](aulas/aula07.md)
+
 ## Exercícios
 
 ### Unidade I

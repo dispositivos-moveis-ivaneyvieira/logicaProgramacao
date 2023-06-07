@@ -15,6 +15,9 @@ npx embedme --source-root . $DIR_UNIDADE_I/lista02.md
 npx embedme --source-root . $DIR_UNIDADE_I/lista03.md
 npx embedme --source-root . $DIR_UNIDADE_I/lista04.md
 
+npx embedme --source-root . $DIR_UNIDADE_II/lista02.md
+npx embedme --source-root . $DIR_UNIDADE_II/lista03.md
+
 # Converte o arquivo markdown para pdf
 function md2pdf() {
     local input=$1
