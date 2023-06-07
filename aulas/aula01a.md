@@ -1,9 +1,7 @@
 TLDR: A ideia principal do vídeo é que a abstração e os algoritmos simplificam a solução de problemas na programação, e o trabalho em equipe e as habilidades de solução de problemas são essenciais na engenharia de software.
 
 1. 🧠 A abstração na programação simplifica a solução de problemas, extraindo o conhecimento necessário da realidade e concentrando-se em problemas específicos.
-
    * Esta aula aborda conceitos básicos, incluindo o conceito de abstração, para facilitar a geração de algoritmos.
-
    * Para implementar e resolver um problema, é preciso ter um conhecimento básico das especificidades de um sistema, como o motor, os freios e a direção de um carro, mas não é necessário ser um especialista em mecânica para aproveitar os benefícios de usá-lo.
    * Abstrair uma pequena parte de um todo para resolver um problema específico, sem precisar entender toda a complexidade.
    * Abstração é o conceito de interpretar uma imagem de diferentes maneiras, dependendo da perspectiva do visualizador, mas a realidade permanece a mesma.
