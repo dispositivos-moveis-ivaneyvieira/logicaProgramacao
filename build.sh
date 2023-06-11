@@ -5,23 +5,14 @@ DIR_UNIDADE_II='docs/unidade_II'
 
 sed -i '/\/\*/,/\*\//d' src/unidade_I/lista01/*.por
 
-# Remove os comentários do código em portugol
-sed -i $DIR_UNIDADE_I/lista01.md -e 's/```portugol/```txt/g'
-npx embedme --source-root . $DIR_UNIDADE_I/lista01.md
-sed -i $DIR_UNIDADE_I/lista01.md -e 's/```txt/```portugol/g'
-
-# Remove os comentários do código
-npx embedme --source-root . $DIR_UNIDADE_I/lista02.md
-npx embedme --source-root . $DIR_UNIDADE_I/lista03.md
-npx embedme --source-root . $DIR_UNIDADE_I/lista04.md
-
-npx embedme --source-root . $DIR_UNIDADE_II/lista02.md
-npx embedme --source-root . $DIR_UNIDADE_II/lista03.md
-
 # Converte o arquivo markdown para pdf
 function md2pdf() {
     local input=$1
     local output=$2
+
+    sed -i $input -e 's/```portugol/```txt/g'
+    npx embedme --source-root . $input
+    sed -i $input -e 's/```txt/```portugol/g'
 
     pandoc --from markdown -f gfm \
         --highlight-style tango \
