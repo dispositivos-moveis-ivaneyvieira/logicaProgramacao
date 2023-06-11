@@ -1,5 +1,7 @@
 **Os exercícios abaixo podem ser feitos usando pseudo-código ou Javascript**
 
+[Git Hub](https://github.com/dispositivos-moveis-ivaneyvieira/logicaProgramacao/tree/main/src/unidade_II/lista02)
+
 1\. Faça um programa que receba quatro notas de um aluno, calcule e mostre a média aritmética das notas e a mensagem de aprovado ou reprovado, considerando para aprovação média 7.
 
 ```jsx

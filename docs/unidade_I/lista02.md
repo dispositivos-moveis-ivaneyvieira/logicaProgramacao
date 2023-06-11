@@ -2,7 +2,7 @@
 
 ## Info.: Os programas das questões abaixo devem ser codificados na linguagem Javascript
 
-1\. Descreva um algoritmo que receba um número inteiro como entrada e imprima o sucessor e antecessor desse número
+1\. Escreva um algoritmo que receba um número inteiro como entrada e imprima o sucessor e antecessor desse número
 
 ```jsx
 //src/unidade_I/lista02/questao01.js
@@ -46,7 +46,7 @@ Antecessor: 9
 */
 ```
 
-2\. Descreva um algoritmo que receba dois números reais, calcule a média aritmética entre os números e imprima o resultado
+2\. Escreva um algoritmo que receba dois números reais, calcule a média aritmética entre os números e imprima o resultado
 
 ```jsx
 //src/unidade_I/lista02/questao02.js
@@ -83,7 +83,7 @@ O valor da média é 11.07
 */
 ```
 
-3\. Descreva um algoritmo que calcule a área de um triângulo $A=\dfrac{b \times h}{2}$
+3\. Escreva um algoritmo que calcule a área de um triângulo $A=\dfrac{b \times h}{2}$
 
 ```jsx
 //src/unidade_I/lista02/questao03.js
@@ -120,7 +120,7 @@ Area: 25
 */
 ```
 
-4\. Descreva um algoritmo que calcule o salário líquido de um professor.  Os dados fornecidos são: valor da hora aula, número de aulas dadas no mês e percentual de desconto do INSS
+4\. Escreva um algoritmo que calcule o salário líquido de um professor.  Os dados fornecidos são: valor da hora aula, número de aulas dadas no mês e percentual de desconto do INSS
 
 ```jsx
 //src/unidade_I/lista02/questao04.js
@@ -160,7 +160,7 @@ Salário: 1210.4
 */
 ```
 
-5\. Descreva um algoritmo que calcule o IMC de uma pessoa $\text{IMC} = \dfrac{\text{peso}}{\text{altura}^{2}}$
+5\. Escreva um algoritmo que calcule o IMC de uma pessoa $\text{IMC} = \dfrac{\text{peso}}{\text{altura}^{2}}$
 
 ```jsx
 //src/unidade_I/lista02/questao05.js
