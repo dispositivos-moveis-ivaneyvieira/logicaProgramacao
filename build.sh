@@ -2,6 +2,7 @@
 
 DIR_UNIDADE_I='docs/unidade_I'
 DIR_UNIDADE_II='docs/unidade_II'
+DIR_UNIDADE_III='docs/unidade_III'
 
 sed -i '/\/\*/,/\*\//d' src/unidade_I/lista01/*.por
 
@@ -56,6 +57,10 @@ md2pdf $DIR_UNIDADE_I/lista04.md $DIR_UNIDADE_I/lista04.pdf
 md2pdf $DIR_UNIDADE_II/lista01.md $DIR_UNIDADE_II/lista01.pdf
 md2pdf $DIR_UNIDADE_II/lista02.md $DIR_UNIDADE_II/lista02.pdf
 md2pdf $DIR_UNIDADE_II/lista03.md $DIR_UNIDADE_II/lista03.pdf
+
+# Cria o PDF da unidade III
+md2pdf $DIR_UNIDADE_III/lista01.md $DIR_UNIDADE_III/lista01.pdf
+md2pdf $DIR_UNIDADE_III/lista02.md $DIR_UNIDADE_III/lista02.pdf
 
 # Renderiza os digramas da aulas
 plantuml aulas/*.puml
